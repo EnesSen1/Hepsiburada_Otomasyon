@@ -1,0 +1,38 @@
+{
+  "homePage": {
+    "accountMenu": "id:myAccount",
+    "loginButton": "id:login",
+    "accountInfo": "css:[data-test-id='account']",
+    "searchInput": "css:[data-test-id='search-bar-input']",
+    "cookieShadowHost": "css:efilli-layout-dynamic",
+    "cookieAcceptButton": "id:hb-accept-all"
+  },
+
+  "loginPage": {
+    "usernameInput": "id:txtUserName",
+    "passwordInput": "id:txtPassword",
+    "loginButton": "id:btnLogin"
+  },
+
+  "searchResultsPage": {
+    "productList": "css:[role='region'][aria-label='Ürünler']",
+    "productCards": "css:[role='region'][aria-label='Ürünler'] li[type='cozy']",
+    "productLink": "css:a[title]",
+    "productInfo": "css:[aria-label*='fiyat:']"
+  },
+
+  "productPage": {
+    "productBrand": "css:[data-test-id='brand']",
+    "productTitle": "css:h1[data-test-id='title']",
+    "addToCartButton": "css:[data-test-id='addToCart']",
+    "productAddedMessage": "xpath://span[contains(normalize-space(.), 'Ürün sepetinizde')]",
+    "closeCartPopup": "css:a[class^='checkoutui-Modal-']",
+    "shoppingCart": "id:shoppingCart"
+  },
+
+  "cartPage": {
+    "productNames": "css:div[class^='product_name_'] a",
+    "deleteAllProducts": "xpath://div[contains(@class,'basket_delete_') and contains(normalize-space(.), 'Ürünleri sil')]",
+    "confirmDeleteAllProducts": "xpath://button[normalize-space()='Tümünü sil']"
+  }
+}

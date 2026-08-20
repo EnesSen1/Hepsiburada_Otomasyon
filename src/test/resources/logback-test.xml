@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss} %-5level - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>logs/test.log</file>
+        <append>false</append>
+
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level [%logger{20}] - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="pages" level="INFO"/>
+    <logger name="steps" level="INFO"/>
+    <logger name="utils" level="INFO"/>
+
+    <logger name="org.reflections" level="ERROR"/>
+    <logger name="com.thoughtworks.gauge" level="ERROR"/>
+
+    <root level="ERROR">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="FILE"/>
+    </root>
+
+</configuration>

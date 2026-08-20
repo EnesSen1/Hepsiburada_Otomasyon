@@ -1,0 +1,8 @@
+# Kullanıcı <keyword> için arama yapar
+* Arama alanına <keyword> yaz ve arama yap
+* Arama sonuçlarının geldiğini ve ürün listesinin görünür olduğunu doğrula
+
+# İkinci satırdaki ilk ürünü seç ve detay sayfasını doğrula
+* İkinci satırdaki ilk ürünü bul ve ürün bilgilerini kaydet
+* İkinci satırdaki ilk ürüne tıkla
+* Seçilen ürünün detay sayfasına yönlendirildiğini doğrula

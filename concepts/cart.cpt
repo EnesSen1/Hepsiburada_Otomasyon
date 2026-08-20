@@ -1,0 +1,7 @@
+# Ürünü sepete ekle ve ekleme onayını doğrula
+* Ürünü sepete ekle
+* Ürünün sepete eklendiğini doğrula
+
+# Sepetteki ürünü doğrula
+* Sepeti aç
+* Eklenen ürünün sepette olduğunu ve temel ürün bilgilerinin eşleştiğini doğrula
